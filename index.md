@@ -3,28 +3,22 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Welcome to my software development blog!
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+My name is Yaser Marey and I am a software developer with a passion for solving complex problems and building innovative applications, particularly in the field of machine learning. I have been working in the tech industry for 20 years. Through the years I have had the opportunity to work on different posts on a wide range of projects, from small startups to large enterprise systems.
 
-More specifically, the created site:
+Through this blog, I am sharing my experiences, insights, and learnings with the broader software development community, with a focus on machine learning and artificial intelligence. The topics I plan to write about include programming languages, frameworks, best practices, and career development, as well as discussing the latest advancements and trends in the field of machine learning.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+I am always looking to learn and grow as a software engineer. I welcome feedback and discussion on the topics I cover. If you have any suggestions for future posts or just want to connect, please don't hesitate to reach out.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Thank you for visiting and I hope you find something of value in my writing.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
+Yaser Marey
 
 ----
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+[^1]: [In another life, I was focusing more on Agile Project Management, my Scrum Guide Translation to Arabic is the official translation published on Scrum.org, and all related content is at my WordPress blog site yasseronline.wordpress.com, although migrating slowly to here](https://yasseronline.wordpress.com).
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[GitHub]: https://
+[Twitter]: https://
+[LinkedIn]: https://
