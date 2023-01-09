@@ -15,10 +15,10 @@ Thank you for visiting and I hope you find something of value in my writing.
 
 Yaser Marey
 
-
+----
 
 [^1]: [In another life, I was focusing more on Agile Project Management, my Scrum Guide Translation to Arabic is the official translation published on Scrum.org, and all related content is at my WordPress blog site yasseronline.wordpress.com, although migrating slowly to here](https://yasseronline.wordpress.com).
 
-[GitHub]: https://
+<!-- [GitHub]: https://
 [Twitter]: https://
-[LinkedIn]: https://
+[LinkedIn]: https:// -->
