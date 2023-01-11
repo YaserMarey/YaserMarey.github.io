@@ -2,6 +2,7 @@
 title: Home
 layout: home
 ---
+![ Machine Learning in Blue ](side_1.png "Machine Learning in Blue")
 
 Welcome to my software development blog!
 
