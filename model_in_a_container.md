@@ -1,9 +1,8 @@
 ---
-title: "Machine Learning Systems: A Unique Puzzle - 2" 
+title: "Model in a Container" 
 layout: home
 ---
-![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")
-### This is the first post of a series of articles discussing the software engineering perspective of Machine Learning System
+![ Model in a Container ](model_in_a_container.png "Machine Learning in Blue")
 
 # ML Model in a Container
 
@@ -123,17 +122,17 @@ a181597082ed        housing_price_pred_model   "python app.py"     
 
 Now we can go to http://localhost:8000 to check if our API server is alive:
 
-[model in a container 1](model_in_a_container_1.png)
+![model in a container 1](model_in_a_container_1.png)
 
 We point to the automatically generated swagger documentation for our API's on http://localhost:8000/docs
 
-[model in a container 2](model_in_a_container_2.png)
+![model in a container 2](model_in_a_container_2.png)
 
 Finally we can test our predict API like:
 
-[model in a container 3](model_in_a_container_3.png)
+![model in a container 3](model_in_a_container_3.png)
 
-[model in a container 4](model_in_a_container_4.png)
+![model in a container 4](model_in_a_container_4.png)
 
 Full code of this post is [https://github.com/YaserMarey/ml_model_containerized] (https://github.com/YaserMarey/ml_model_containerized)
 
