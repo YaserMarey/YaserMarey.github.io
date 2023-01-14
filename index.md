@@ -4,7 +4,7 @@ layout: home
 ---
 ![ Machine Learning in Blue ](side_1.png "Machine Learning in Blue")
 
-Welcome to my software development blog!
+Welcome to my blog!
 
 My name is Yaser Marey and I am a software developer with a passion for solving complex problems and building innovative applications, particularly in the field of machine learning. I have been working in the tech industry for 20 years. Through the years I have had the opportunity to work on different posts on a wide range of projects, from small startups to large enterprise systems.
 

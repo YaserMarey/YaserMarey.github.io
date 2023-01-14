@@ -2,6 +2,7 @@
 title: "Machine Learning Systems: A Unique Puzzle" 
 layout: home
 ---
+![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")
 ### This is the first post of a series of articles discussing the Sofware engineering perspective of Machine Learning System
 
 As a software engineer, I see ML systems as an exciting blend of tools and components, rather than just a set of algorithms that make predictions or classify data. These components work together to create a practical and useful tool for businesses or organizations.
