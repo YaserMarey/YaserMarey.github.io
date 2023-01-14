@@ -19,13 +19,13 @@ Also, testing and validation are crucial in ensuring accuracy and reliability, m
 
 But building a software system with machine learning adds an **extra layer of complexity!**
 
-#### Data Pipelines
+### Data Pipelines
 First, we have to take into account the data pipelines that feed data into the system. These pipelines are responsible for extracting data from various sources, cleaning and preparing the data, and storing it in a format that is ready to be used by the ML algorithms. Data pipelines can be complex and may require significant resources to set up and maintain.
 
-#### ML Models
+### ML Models
 Another unique aspect of ML-intensive software systems is ML models. We have to build the logic for developing, monitoring, and updating these models. This includes the processes and procedures for training and evaluating models and the mechanisms for deploying new models and retiring old ones.
 
-#### Maintenance and Support
+### Maintenance and Support
 Finally, the maintenance and support of the ML system is an ongoing process. This includes tasks such as monitoring the system for errors or degrading performance due to a shift in data distribution from development time to production. Therefore, it is especially important to design ML systems for observability, which is the ability to monitor the ML model performance in production.
 
 ### Conclusion
