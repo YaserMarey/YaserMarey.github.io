@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Systems:: A Unique Puzzle 
+title: "Machine Learning Systems: A Unique Puzzle" 
 layout: home
 ---
 ### This is the first post of a series of articles discussing the Sofware engineering perspective of Machine Learning System
