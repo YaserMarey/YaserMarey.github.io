@@ -9,7 +9,7 @@ layout: home
 
 # What to solve with Machine Learning
 
-Choosing to use machine learning to solve a problem can be driven by the hype around AI rather than the genuine value it can add. However, we don't want to neglect new technology for this reason because technology evolves. Waiting for a technology to mature could mean losing the race to competitors, but applying the technology could also be costly.
+Choosing to use machine learning to solve a problem can be driven by the hype around AI rather than the genuine value it can add. However, we don't want to neglect new technology for this reason because technology evolves. Waiting for a technology to mature could mean losing the race to competitors.
 
 In general, problems that we can use machine learning to solve have one or more of the following symptoms:
 
