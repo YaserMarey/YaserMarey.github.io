@@ -7,11 +7,11 @@ layout: home
 
 # Extra Layer of Complexity
 
-As a software engineer, I see ML systems as an exciting blend of tools and components, rather than just a set of algorithms that make predictions or classify data. These components work together to create a practical and useful tool for businesses or organizations.
+From a software engineering perspective, Machine Learning (ML) systems are perceived as an intricate combination of tools and components, rather than simply a collection of algorithms that predict outcomes or classify data. These components function in unison to produce a functional and valuable instrument for businesses or organizations.
 
-Think of it like building a puzzle! We start by understanding the specific business needs and goals that sparked the ML project. We envision the perfect user interface, ensuring it is user-friendly and easy to navigate.
+Think of it like building a puzzle! We start by comprehending the specific business needs and goals that sparked the ML project. We envision the perfect user interface, ensuring it is user-friendly and easy to navigate.
 
-We design our system with scalability, maintainability, performance, and security in mind, among other quality attributes.
+We design our system for scalability, maintainability, performance, and security.
 
 We carefully consider the infrastructure that enables the delivery of the ML system. This includes the hardware, software, and networks that support the system, as well as any cloud resources or other external services that it relies on.
 
