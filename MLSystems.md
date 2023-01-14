@@ -1,31 +1,32 @@
 ---
-title: Software Engineering Prespective of Machine Learning
+title: Machine Learning Systems: A Unique Puzzle 
 layout: home
 ---
 
-As a software engineer I see ML systems as a set of components and tools, rahter than a set of algorithms that makes predictions or classifies data. These components work together to create a functional, useful tool for businesses or organizations.
+### Softare egnineering prespective on ML System
+As a software engineer, I see ML systems as an exciting blend of tools and components, rather than just a set of algorithms that make predictions or classify data. These components work together to create a practical and useful tool for businesses or organizations.
 
-One of these components is the business requirements that initiated the ML project in the first place. This could include the specific problems or needs that the ML system is meant to address, such as improving customer service or identifying fraudulent transactions.
+Think of it like building a puzzle! We start by understanding the specific business needs and goals that sparked the ML project. We then piece together the perfect user interface, ensuring it is user-friendly and easy to navigate.
 
-Another important aspect of an ML system is the interface, which is how users and developers interact with the system. This could be a web application, a command line interface, or some other type of user interface. The interface should be intuitive and easy to use, allowing users to input data and receive output from the ML system without too much difficulty.
+Next, we design our system with scalability, maintainability, reliability, performance, and security in mind, among other quality attributes.
+We carefully consider the infrastructure that enables the delivery of the ML system. This includes the hardware, software, and networks that support the system, as well as any cloud resources or other external services that it relies on.
 
-The data stack refers to the data that the ML system uses to train and make predictions. This includes the data sources, how the data is prepared and cleaned, and any data processing that occurs before it is fed into the ML algorithms.
+Testing and validation are crucial in ensuring accuracy and reliability, much like double-checking that all the puzzle pieces are in the right place.
 
-The logic for developing, monitoring, and updating models is also an important part of an ML system. This includes the processes and procedures for training and evaluating models, as well as the mechanisms for deploying new models and retiring old ones.
+### Additional Commplexity
+But building a software system with machine learning adds an extra layer of complexity.
 
-Finally, the infrastructure that enables the delivery of the ML system is crucial. This includes the hardware, software, and networks that support the system, as well as any cloud resources or other external services that it relies on.
+#### Data pipelines
+We have to take into account the data pipelines that feed data into the system. These pipelines are responsible for extracting data from various sources, cleaning and preparing the data, and storing it in a format that is ready to be used by the ML algorithms. Data pipelines can be complex and may require significant resources to set up and maintain.
 
-In summary, an ML system in production involves much more than just the algorithms it uses. It includes a range of components that work together to create a functional, effective tool for solving business problems.
+#### ML models
+Another unique aspect in ML-intensive software systems is ML models. We have to build the logic for developing, monitoring, and updating models. This includes the processes and procedures for training and evaluating models, as well as the mechanisms for deploying new models and retiring old ones.
 
-In addition to the components I mentioned previously, there are a few other aspects of an ML system in production that are worth considering.
+#### Maintenance and support
+Finally, the maintenance and support of the ML system is an ongoing process. This includes tasks such as monitoring the system for errors or issues, applying updates and patches, and responding to user feedback. Therefore, it is especially important to design ML systems for observability, which is the ability to monitor the ML model performance in production.
 
-One important aspect is the data pipelines that feed data into the system. These pipelines are responsible for extracting data from various sources, cleaning and preparing the data, and storing it in a format that is ready to be used by the ML algorithms. Data pipelines can be complex and may require significant resources to set up and maintain.
-
-Another important aspect is the testing and validation of the ML system. This includes both unit testing of individual components and integration testing of the system as a whole. It is important to thoroughly test the ML system to ensure that it is accurate and reliable, and to identify and fix any issues that may arise.
-
-Finally, the maintenance and support of the ML system is an ongoing process. This includes tasks such as monitoring the system for errors or issues, applying updates and patches, and responding to user feedback. Ensuring that the ML system is well-maintained is essential for its ongoing effectiveness.
-
-In conclusion, an ML system in production involves many components beyond just the algorithms it uses. It includes business requirements, user interfaces, data pipelines, testing and validation processes, and ongoing maintenance and support. All of these components work together to create a functional, reliable tool for solving business problems using machine learning.
+### Conclusion
+In conclusion, an ML system in production involves many components beyond just the algorithms it uses. It includes business requirements, user interfaces, testing and validation processes, data pipelines, ML models, and ongoing maintenance and support. All of these components work together to create a functional and reliable tool for solving business problems using machine learning. It's a challenging but rewarding journey.
 
 ----
 
