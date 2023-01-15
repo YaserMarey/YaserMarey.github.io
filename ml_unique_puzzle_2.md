@@ -25,8 +25,7 @@ Whether False Positive is cheap, False negative or both or error will be average
 ### The problem is of a large scale
 The scale here means that either the problem affects a large number of people or the solution to the problem would have a high frequency of use. For example, sorting through millions of check numbers or postal codes, such as what [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) did in 1998 with the OCR for the set of digits from 0 to 9, to be deployed and used in banks and post offices.
 
-
-
+Salam,
 
 ----
 
