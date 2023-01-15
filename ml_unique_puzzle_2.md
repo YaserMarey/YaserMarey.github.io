@@ -3,7 +3,7 @@ title: "Machine Learning Systems: A Unique Puzzle - 2"
 layout: home
 ---
 ![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")
-### This is the first post of a series of articles discussing the software engineering perspective of Machine Learning Systems
+### This is the second post of a series of articles discussing the software engineering perspective of Machine Learning Systems
 
 [1 - Extra Layer of Complexity](https://yasermarey.github.io/ml_unique_puzzle_1.html)
 
