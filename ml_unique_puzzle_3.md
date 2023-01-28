@@ -13,28 +13,30 @@ layout: home
 
 The resurrection of machine learning was only possible because of the internet and the proliferation of data sources.
 
-Thanks to FaceBook and company 90% of the world's data is [been created in the last two years](https://www.domo.com/learn/infographic/data-never-sleeps-5) and estimates say that IoT devices alone will be pouring [90 Zettabytes](https://www.aparavi.com/resources-blog/data-growth-statistics-blow-your-mind) by 2025. 
+Thanks to facebook and company 90% of the world's data is [been created in the last two years](https://www.domo.com/learn/infographic/data-never-sleeps-5) and estimates say that IoT devices alone will be pouring [90 Zettabytes](https://www.aparavi.com/resources-blog/data-growth-statistics-blow-your-mind) by 2025. 
 
 But this is only good news for data-hungry deep neural networks! 
 
-As we feed more data into your model, we're giving it the opportunity to learn intricate relationships between the inputs and outputs. This ultimately leads to better performance. However, as the data size increases, so does the time and resources needed for training. But with the development in GPU and cloud computing infrastructure, we are able to build increasingly complex DNN's. To discuss data in the context of machine learning we need to look into possible data sources, how to categorize data after collecting them, and how to process this data.
+As we feed more data into your model, we're giving it the opportunity to learn intricate relationships between the inputs and outputs. This ultimately leads to better performance. However, as the data size increases, so does the time and resources needed for training. But with the development in GPU and cloud computing infrastructure, we are able to build increasingly complex DNN's. 
+
+To discuss data in the context of machine learning we need to look into possible data sources, how to categorize data after collecting them, and how to process this data.
 
 ### Data Sources
 There are many sources of data that can be used for machine learning, including:
 
-- Public datasets: There are many publicly available datasets that can be used for machine learning, such as the UCI Machine Learning Repository and the Kaggle Datasets.
+***Public datasets***: There are many publicly available datasets that can be used for machine learning, such as the UCI Machine Learning Repository and the Kaggle Datasets.
 
-- Private datasets: Organizations may also have their own proprietary datasets that can be used for machine learning.
+***Private datasets***: Organizations may also have their own proprietary datasets that can be used for machine learning.
 
-- Web scraping: Data can be collected from the internet by web scraping, which involves using a program to extract data from websites.
+***Web scraping***: Data can be collected from the internet by web scraping, which involves using a program to extract data from websites.
 
-- APIs: Many companies and organizations provide APIs (Application Programming Interfaces) that allow developers to access their data.
+***APIs***: Many companies and organizations provide APIs (Application Programming Interfaces) that allow developers to access their data.
 
-- Sensor data: Machine learning can also be applied to sensor data, such as data collected from cameras, microphones, and other types of sensors.
+***Sensor data***: Machine learning can also be applied to sensor data, such as data collected from cameras, microphones, and other types of sensors.
 
-- Social Media: Social media platforms like Twitter, facebook, LinkedIn, Instagram, etc. provide data for various use cases.
+***Social Media***: Social media platforms like Twitter, facebook, LinkedIn, Instagram, etc. provide data for various use cases.
 
-- Surveys: Surveys can be used to collect data for machine learning.
+***Surveys***: Surveys can be used to collect data for machine learning.
 
 Ultimately, the choice of the data source will depend on the specific problem we are trying to solve and the type of data that is needed to train your model.
 
@@ -65,7 +67,7 @@ There are several categories of data that are commonly used in machine learning:
 
 ***Transactional data***: This type of data is used to record business transactions, such as sales, payments, and customer data.
 
-Each type of data has its own characteristics and may require different pre-processing and feature extraction techniques. The choice of data category will depend on the specific problem you are trying to solve and the type of data that is available.
+Each type of data has its own characteristics and may require different pre-processing and feature extraction techniques. The choice of data category will depend on the specific problem we are trying to solve and the type of data that is available.
 
 ### Data Models
 
@@ -93,7 +95,7 @@ Batch processing is often used for offline analysis, data warehousing, and repor
 
 ***Stream processing***, on the other hand, refers to the process of analyzing and processing data as it is generated or collected in real time. Stream processing systems are designed to handle high-velocity, high-volume, and continuous data streams. 
 
-The data is processed as soon as it is generated and doesn't wait for a batch of data. Examples of stream processing systems include Apache Kafka, Apache Flink, and Apache Storm.
+The data is processed as soon as it is generated and doesn't wait for a batch of data. Examples of stream processing systems are Apache Kafka, Apache Flink, and Apache Storm.
 
 Both batch and stream processing have their own advantages and use cases. Batch processing is better suited for offline and historical analysis, while stream processing is better suited for real-time monitoring, alerting, and decision-making.
 
