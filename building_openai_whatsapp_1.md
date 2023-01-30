@@ -168,6 +168,6 @@ That's it for Part 1. In Part 2, I'll show you how to receive messages from cust
 
 Stay tuned!
 
-The complete source code for this series is available at https://yasermarey@github.com/
+The complete source code for this series is available at [github](https://github.com/YaserMarey/whatsapp_openai_chatbot)
 ----
 Salam
