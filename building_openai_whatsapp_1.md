@@ -46,7 +46,8 @@ The general steps we need to take for part 1 are as the following:
 
 Here are the steps in detail:
 
-***Step 1*** 
+***Step 1***
+
 Login to your Facebook developer account and click on the Create App button and choose the ***Business*** type app option and then click the next button below.
 
 ![](chatgpt_wts_app_1.png)
@@ -70,6 +71,7 @@ Now click the "Start Using the API" button and follow on to the next step.
 Take note of ***WhatsApp Temporary Access Token***
 
 ***Step 2***
+
 Most of the configuration is done now, all that we need to do is to add a phone number to test sending messages to it from WhatsApp Cloud API.
 
 ![](chatgpt_wts_app_6.png)
@@ -82,6 +84,7 @@ Take note of the ***Phone Number ID***.
 
 
 ***Step 3***
+
 Now let's write some code to wrap the WhatsApp Cloud API and use this wrapper in sending a template message similar to the one above and then relay replies we will receive later from OpenAI. 
 Fire your preferred code editor, my preference is Visual Studio Code with Python Extensions, and start building a WhatsApp cloud API wrapper:
 
