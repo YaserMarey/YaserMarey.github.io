@@ -7,14 +7,16 @@ layout: home
 
 ### Using Python, WhatsApp Cloud API, and a FastAPI Webhook Published on Heroku
 
+
 Follow along as we walk you through the steps of building WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
+
 
 #### This is part - 1 of a series of three posts:
 #### Part - 1: Sending Messages using WhatsApp Cloud API 
 #### Part - 2: Receiving Message from WhatsApp Cloud API using WebHooks
 #### Part - 3: Text Completion using OpenAI Language Models
 
-``` I will update the links to parts 2 and 3 once they are done, follow me to receive notifications once they are published ```
+***I will update the links to parts 2 and 3 once they are done, follow me to receive notifications once they are published***
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
 
@@ -24,7 +26,7 @@ Imagine the potential of fine-tuning a GPT-3 model with a specific corpus collec
 
 In this post, I'll give you an overview of the steps to configure WhatsApp Cloud API and send a test message. In the next post, I'll set up a webhook to receive messages from customers, and in the final post, I'll use OpenAI's "still" free API to send back GPT-powered replies.
 
-``` Disclaimer: the LLMS currently available through OpenAI API is not as powerful as what you can experience on [chat.openai.com](https://chat.openai.com/chat), but they've promised it will improve soon. Check out their tweet for more info: ``` [https://twitter.com/OpenAI/status/1615160228366147585](https://twitter.com/OpenAI/status/1615160228366147585)
+***Disclaimer*** the LLMS currently available through OpenAI API is not as powerful as what you can experience on [chat.openai.com](https://chat.openai.com/chat), but they've promised it will improve soon. Check out their tweet for more info: [twitter.com](https://twitter.com/OpenAI/status/1615160228366147585)
 
 I may also add a fourth post, this final post will be about fine-tuning GPT-3 model to a specific dataset.
 
