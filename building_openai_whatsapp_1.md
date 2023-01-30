@@ -16,6 +16,7 @@ Follow along as we walk you through the steps of building WhatsApp Chatbot power
 #### Part - 2: Receiving Message from WhatsApp Cloud API using WebHooks
 #### Part - 3: Text Completion using OpenAI Language Models
 
+
 ***I will update the links to parts 2 and 3 once they are done, follow me to receive notifications once they are published***
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
