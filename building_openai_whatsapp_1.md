@@ -152,9 +152,9 @@ if __name__ == "__main__":
     client.send_template_message("hello_world", "en_US", "201012345678")
 ```
 
-The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** this type of message is the only one allowed by WhatsApp Cloud Platform to be sent to customers without them initiating the conversation, so it must bef an approved message tempalte from Meta. This method is used only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
+The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** this type of message is the only one allowed by WhatsApp Cloud Platform to be sent to customers without them initiating the conversation, so it must be an approved tempalte from Meta. We will use this method only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
 
-The second thing to notice is that in our current development mode, WhatsApp Cloud API only allows sending messages either template or regular to up to 5 pre-defined phone numbers. Notice how the phone number is used without leading + or zeros.
+The second thing to notice is that in our current development mode, WhatsApp Cloud API only allows sending messages, either template or regular, to up to 5 pre-defined phone numbers. Notice how the phone number is used without leading + or zeros.
 
 To source the virtual environment:
 ```sh
