@@ -5,15 +5,13 @@ layout: home
 ![ Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
 # Building WhatsApp Chatbot powered by OpenAI GPT-3! - 1
 
-### Using Python, WhatsApp Cloud API, and a FastAPI Webhook Published on Heroku
+### Part - 1: Sending Messages using WhatsApp Cloud API
+
+Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 
 
-Follow along as we walk you through the steps of building WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
-
-
-#### This is part - 1 of a series of three posts:
-#### Part - 1: Sending Messages using WhatsApp Cloud API 
-#### Part - 2: Receiving Message from WhatsApp Cloud API using WebHooks
+#### This is part - 1 of a series of three posts, the other two parts are:
+#### Part - 2: Receiving Messages from WhatsApp Cloud API using WebHooks
 #### Part - 3: Text Completion using OpenAI Language Models
 
 
@@ -21,13 +19,15 @@ Follow along as we walk you through the steps of building WhatsApp Chatbot power
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
 
-That was interesting, but we wanted also to add a chatbot to the call center workforce, so when a customer chats in complaining or enquiring he or she will be initially routed to a bot agent before a human can engage with the customer if needed. To our benefit we have now chatGPT which although not that fluent in Arabic "yet" it opens new interesting possibilities of free chat dialog between customers and chatbots rather than templated replies with options to choose from as we were originally planning to build.
+That was interesting, but we wanted also to add a chatbot to the call center workforce, so when a customer chats in complaining or enquiring he or she will be initially routed to a bot agent before a human can engage with the customer if needed. To our benefit, we have now chatGPT which although not that fluent in Arabic "yet" it opens new interesting possibilities of free chat dialog between customers and chatbots rather than templated replies with options to choose from as we were originally planning to build.
 
 Imagine the potential of fine-tuning a GPT-3 model with a specific corpus collected from past chat history with human agents. It could become an expert in handling Egyptian customers!
 
 In this post, I'll give you an overview of the steps to configure WhatsApp Cloud API and send a test message. In the next post, I'll set up a webhook to receive messages from customers, and in the final post, I'll use OpenAI's "still" free API to send back GPT-powered replies.
 
-***Disclaimer*** the LLMS currently available through OpenAI API is not as powerful as what you can experience on [chat.openai.com](https://chat.openai.com/chat), but they've promised it will improve soon. Check out their tweet for more info [twitter.com](https://twitter.com/OpenAI/status/1615160228366147585)
+***Disclaimer*** 
+
+The LLMS currently available through OpenAI API is not as powerful as what you can experience on [chat.openai.com](https://chat.openai.com/chat), but they've promised it will improve soon. Check out their tweet for more info [twitter.com](https://twitter.com/OpenAI/status/1615160228366147585)
 
 Let's start,
 
@@ -92,12 +92,12 @@ In the folder you will create your code in, create a virtual environment:
 ```
 python -m venv venv
 ``` 
-Install requests, and 
+Install requests, and python-dotenv
 
 ```sh
 pip install requests python-dotenv
 ```
-Create .evn file and set the following keys with WhatsApp Temporary Access Token and Phone Number Id from the above steps.
+Create ```.env`` file and set the following keys with WhatsApp Temporary Access Token and Phone Number Id from the above steps.
 ```sh
 WHATSAPP_API_TOKEN=
 WHATSAPP_CLOUD_NUMBER_ID=
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     client.send_template_message("hello_world", "en_US", "201012345678")
 ```
 
-The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** this type of message is the only one allowed by WhatsApp Cloud Platform to be sent to customers without them initiating the conversation, so it must be an approved tempalte from Meta. We will use this method only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
+The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** this type of message is the only one allowed by WhatsApp Cloud Platform to be sent to customers without them initiating the conversation, so it must be an approved template from Meta. We will use this method only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
 
 The second thing to notice is that in our current development mode, WhatsApp Cloud API only allows sending messages, either template or regular, to up to 5 pre-defined phone numbers. Notice how the phone number is used without leading + or zeros.
 
@@ -161,8 +161,9 @@ To source the virtual environment:
 $ source venv/bin/activate
 ```
 And run the whatsapp client with the following command:
+
 ```
-python whatsapp_client.py
+$ python whatsapp_client.py
 ```
 If you receive a message successfully then we are done, 
 To prepare for the following task of receiving messages and sending replies add the following method to WhatsAppClientWapper class in whatsapp_client.py 
@@ -191,7 +192,7 @@ That's it for Part 1. In Part 2, I'll show you how to receive messages from cust
 
 Stay tuned!
 
-The complete source code for this series is available at [github](https://github.com/YaserMarey/whatsapp_openai_chatbot)
+The complete source code for this series is available [@github](https://github.com/YaserMarey/whatsapp_openai_chatbot)
 
 ----
 Salam
