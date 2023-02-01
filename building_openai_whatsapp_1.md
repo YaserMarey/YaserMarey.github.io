@@ -19,11 +19,11 @@ Follow along as we walk through the steps of building a WhatsApp Chatbot powered
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
 
-That was interesting, but we wanted also to add a chatbot to the call center workforce, so when a customer chats in complaining or enquiring he or she will be initially routed to a bot agent before a human can engage with the customer if needed. To our benefit, we have now chatGPT which although not that fluent in Arabic "yet" it opens new interesting possibilities of free chat dialog between customers and chatbots rather than templated replies with options to choose from as we were originally planning to build.
+That was interesting! but we wanted also to add a chatbot to the call center workforce, so when a customer chats in complaining or enquiring she will be initially routed to a bot-agent before a human can interfere if further assistance is needed. 
 
-Imagine the potential of fine-tuning a GPT-3 model with a specific corpus collected from past chat history with human agents. It could become an expert in handling Egyptian customers!
+To our benefit, we now have OpenAI’s GPT-3 and other LLMs (Large Language Models), which although not that fluent in Arabic “yet”, open new interesting possibilities of free chat dialog between customers and chatbots rather than templated replies with options to choose from as we were originally planning to build.
 
-In this post, I'll give you an overview of the steps to configure WhatsApp Cloud API and send a test message. In the next post, I'll set up a webhook to receive messages from customers, and in the final post, I'll use OpenAI's "still" free API to send back GPT-powered replies.
+Imagine the potential of a GPT-3 model fine-tuned with a corpus collected from chat history with human agents. It could become an expert in handling Egyptian customers!
 
 ***Disclaimer*** 
 
@@ -86,6 +86,7 @@ Take note of the ***Phone Number ID***.
 ***Step 3***
 
 Now let's write some code to wrap the WhatsApp Cloud API and use this wrapper in sending a template message similar to the one above and then relay replies we will receive later from OpenAI. 
+
 Fire your preferred code editor, my preference is Visual Studio Code with Python Extensions, and start building a WhatsApp cloud API wrapper:
 
 In the folder you will create your code in, create a virtual environment:
@@ -152,7 +153,9 @@ if __name__ == "__main__":
     client.send_template_message("hello_world", "en_US", "201012345678")
 ```
 
-The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** this type of message is the only one allowed by WhatsApp Cloud Platform to be sent to customers without them initiating the conversation, so it must be an approved template from Meta. We will use this method only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
+The code is simple, but a couple of things to keep in mind: first it defines one method that sends a ***template whatsapp message*** This type of message is the only one allowed to be sent to customers without them initiating the conversation, so it must be an approved template from Meta.
+
+We will use this method only to test that our code can send messages. In the next section, I am adding another method that we will actually use to send replies from GPT-3. 
 
 The second thing to notice is that in our current development mode, WhatsApp Cloud API only allows sending messages, either template or regular, to up to 5 pre-defined phone numbers. Notice how the phone number is used without leading + or zeros.
 
