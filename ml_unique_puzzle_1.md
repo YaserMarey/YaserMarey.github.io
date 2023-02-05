@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning Systems: A Unique Puzzle - 1" 
 layout: home
+nav_order: 2
 ---
 ![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")
 ### This is the first post of a series of articles discussing the software engineering perspective of Machine Learning Systems

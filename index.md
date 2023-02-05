@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 ![ Machine Learning in Blue ](side_1.png "Machine Learning in Blue")
 
