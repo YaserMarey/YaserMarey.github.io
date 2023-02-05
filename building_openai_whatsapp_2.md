@@ -172,13 +172,13 @@ Create a text file, add the following line, and save it to the root of our proje
 web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.webhook:app
 ```
 
-***Second*** is runtime.txt file that specifies the version of Python that will be used to run the app. The file ensures that the correct version of Python is installed on the Heroku dyno.
+***Second*** is ```runtime.txt``` file that specifies the version of Python that will be used to run the app. The file ensures that the correct version of Python is installed on the Heroku dyno.
 Create a text file, add the following line, and save it to the root of our project source folder: 
 ```sh
 python-3.10.4
 ```
 
-***Third*** we also need requirements.txt file, we can generate this file using pipreqs, first install it using ```pip```
+***Third*** we also need ```requirements.txt``` file, we can generate this file using pipreqs, first install it using ```pip```
 ```sh
 $ pip install pipreqs
 ```
@@ -283,13 +283,13 @@ Test your echo webhook by sending a message to the WhatsApp Meta Cloud API Busin
 
 ![](chatgpt_wts_app_15.png)
 
-If anything went wrong you need to check Heroku Logs.
+If anything went wrong you can check Heroku Logs.
 
 Great!, we are done with this part. In Part 3, We will pass the message we received from the customer over webhook as a prompt to OpenAI GPT-3 and ask it to complete it and then respond with the reply to the customer.
 
 Stay tuned!
 
-The complete source code for this series is available [@github](https://github.com/YaserMarey/whatsapp_openai_chatbot)
+The complete [source code](https://github.com/YaserMarey/whatsapp_openai_chatbot) for this series is available [@github](https://github.com/YaserMarey/whatsapp_openai_chatbot)
 
 ----
 Salam,
