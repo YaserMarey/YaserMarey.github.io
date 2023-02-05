@@ -5,7 +5,7 @@ layout: home
 ![ Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
 # Building WhatsApp Chatbot powered by OpenAI GPT-3! - 1
 
-### Part - 1: Sending Messages using WhatsApp Cloud API
+# Sending Messages using WhatsApp Cloud API
 
 Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 
@@ -15,7 +15,7 @@ Follow along as we walk through the steps of building a WhatsApp Chatbot powered
 #### Part - 3: Text Completion using OpenAI Language Models
 
 
-***I will update the links to parts 2 and 3 once they are done, follow me to receive notifications once they are published***
+***I will update the links to parts 2 and 3 soon, follow me to receive notifications when they are published***
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
 
@@ -114,7 +114,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-class WhatsAppWrapper:
+class WhatsAppClient:
 
     API_URL = "https://graph.facebook.com/v15.0/"
     WHATSAPP_API_TOKEN = os.environ.get("WHATSAPP_API_TOKEN")
@@ -148,7 +148,7 @@ class WhatsAppWrapper:
         return response.status_code
 
 if __name__ == "__main__":
-    client = WhatsAppWrapper()
+    client = WhatsAppClient()
     # send a template message
     client.send_template_message("hello_world", "en_US", "201012345678")
 ```
