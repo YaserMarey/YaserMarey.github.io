@@ -278,6 +278,7 @@ We need also to subscribe to messages. Click on the ***Manage*** button on the *
 
 
 ***Step 4***
+
 Test your echo webhook by sending a message to the WhatsApp Meta Cloud API Business number you received a template message on before in part 1 of this series, and if things went ok then you should see echoed back to you.
 
 ![](chatgpt_wts_app_15.png)
