@@ -6,3 +6,11 @@ url: https://just-the-docs.github.io
 
 aux_links:
   yasseronline ( migration is going on! ): https://yasseronline.wordpress.com
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
