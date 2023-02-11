@@ -10,6 +10,8 @@ nav_exclude: true
 
 # Features Engineering Common Tasks
 
+We are still talking about data from last two posts. This time I want to summarize feature engieering techniques. Selecting the right features is the very important.
+
 1-	Handling missing values: Missing not at random (missing is legitimate since it is not applicable, or the data itself is confidential), missing at random (because it was not provided), missing completely at random(randomly missed because of usually errors in data entry), imputate by filling with the mood, mean or default, another option is  to delete ( column or row )
 
 2-	Scaling: normalization ( x – min / max – min ) this is to map all values in the range [0 to 1 ] we can also use another formula to map form [-1 to 1] (2*x – min/max-min), also standardization which x – avg(x)/std, also log transformation.

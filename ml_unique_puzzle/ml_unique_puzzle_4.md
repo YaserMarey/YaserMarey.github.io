@@ -21,16 +21,13 @@ Data labeling unexpectedly requires attention from an engineering perspective, w
 
     Depending on the data we are working on, it happens that data samples labeled with ground truth labels are available. For example for stock prices, actual historical prices are known. In other cases, we can collect feedback from the user either agreeing or disagreeing with the predictions we are making through our model. This happens for example on eCommerce websites, where actual customer selections are known and we can use this to train our recommendation system.
 
-4. **Semi-Supervision**
+3. **Semi-Supervision**
 
     Semi-Supervision is an approach that has proven to be useful to avoid labeling the entire data set. We simply train on a small set of hand-labeled samples and then use the model to predict, add the high-confidence predicted samples to the training data, and then train again, and so on.
     Another semi-supervision method relies on labeling a small set of samples and then using clustering to label similar samples with the same label.
 
-5.  **Transfer Learning**
+4.  **Transfer Learning**
     This is another possible solution to avoid hand labeling. Here we just use a pre-trained model on a different dataset. We might only need to label a few data samples to fine-tune the pre-trained model.
-
-6. **Active Learning**
-    This is not a labeling method as much as it is a technique to enhance the quality of the training data set. Active Learning means selecting the most confusing data samples, those are the ones the model fails to predict correctly, and then label more of them hoping that this would enhance the quality of predictions. However, too aggressive Active Learning might cause the model to overfit and affect performance negatively.
 
 ### Labeling Problems
 
@@ -38,7 +35,7 @@ Data labeling unexpectedly requires attention from an engineering perspective, w
 
     This happens when the same sample is annotated with two different and conflicting labels by two annotators. This problem is inevitable. Something we can do is to clearly define the problem and the rules we want annotators to work with, apply quality checks on labels, and define conflict resolution rules.
 
-2. **Data Linage**
+2. **Data Lineage**
 
     This technique is all about tracking the sources of the data and sources of labels. This is important and helps in tracking changes in model performance due to the introduction of new data samples.
 

@@ -18,9 +18,9 @@ Follow along as we walk through the steps of building a WhatsApp Chatbot powered
 
 In Part 1, we wrote a simple WhatsApp Cloud API wrapper that sends template messages. We also added a method to send conversation messages to the customer, provided that the customer opts into a conversation with us.
 
-In Part 2, we ....
+In Part 2, we added a webhook to recevie messages from the customer.
 
-In this part, we will write a ....
+In this part, we will write a wrapper to OpenAI 
 
 Let's start! The steps we need to take are as follows:
 
