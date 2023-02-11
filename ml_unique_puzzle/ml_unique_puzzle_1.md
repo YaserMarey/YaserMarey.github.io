@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Systems: A Unique Puzzle - 1" 
 layout: home
-parent: Model in a Container
+parent: "Machine Learning Systems: A Unique Puzzle"
 nav_order: 1
 ---
 ![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")

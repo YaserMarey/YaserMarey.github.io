@@ -1,15 +1,11 @@
 ---
 title: "Machine Learning Systems: A Unique Puzzle - 3" 
 layout: home
-parent: Model in a Container
+parent: "Machine Learning Systems: A Unique Puzzle"
 nav_order: 3
 ---
 ![ Machine Learning Systems: A Unique Puzzle ](ml_unique_puzzle.png "Machine Learning in Blue")
 ### This is the third post of a series of articles discussing the software engineering perspective of Machine Learning Systems
-
-[1 - Extra Layer of Complexity](https://yasermarey.github.io/ml_unique_puzzle_1.html)
-
-[2 - What to solve with Machine Learning](https://yasermarey.github.io/ml_unique_puzzle_2.html)
 
 # Marvelous data and where to find it
 

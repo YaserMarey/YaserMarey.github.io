@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Machine Learning Systems: A Unique Puzzle 
+title: "Machine Learning Systems: A Unique Puzzle" 
 nav_order: 3
 has_children: true
 ---
