@@ -1,7 +1,7 @@
 ---
 title: "MNIST: The Neural Network Hello World Dataset" 
 layout: home
-nav_order: 6
+nav_order: 4
 ---
 # MNIST: The Neural Network Hello World Dataset
 
