@@ -15,19 +15,7 @@ Data labeling unexpectedly requires attention from an engineering perspective, w
 
 1. **Hand labeling**
 
-    The most common labeling method, is the easiest to set up but it has clear drawbacks:
-
-- ***Expensive***
-
-    Labeling manually usually requires a subject matter expert, or even a group of them, for example in medicine x-rays labeling requires a board-certified radiologist. In other cases, we will need to carefully design guidelines on how to label the data samples and educate the labeling team on them. In addition to this we need to audit the team's performance as well.
-
-- ***Data Privacy Restrictions***
-
-    With manual labeling, we have also to understand the Data Privacy restrictions. For example in some cases, we may not be able to share data with an external team to label it. 
-    
-- ***Slow***
-
-    Hand labeling is time-consuming. Slow labeling leads to slow iteration and also means that the model update is less frequent than sometimes needed.
+    The most common labeling method, is the easiest to set up but it has clear drawbacks. It is ***Expensive*** since it usually requires a subject matter expert, or even a group of them, for example in medicine x-rays labeling requires a board-certified radiologist. Also with manual labeling, we have also to understand the ***Data Privacy restrictions***. For example in some cases, we may not be able to share data with an external team to label it. Manual labeling is also ***Time-consuming*** which leads to slow iteration and also means that the model update is less frequent than sometimes needed.
 
 2.  **Natural Labels**
 
