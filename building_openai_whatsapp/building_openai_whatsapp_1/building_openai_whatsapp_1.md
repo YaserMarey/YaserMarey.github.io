@@ -1,5 +1,5 @@
 ---
-title: "WhatsApp Chatbot powered by OpenAI GPT-3! - 1" 
+title: "Part - 1" 
 layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 1
