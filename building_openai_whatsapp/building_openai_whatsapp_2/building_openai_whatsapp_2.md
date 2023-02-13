@@ -7,7 +7,7 @@ nav_order: 2
 ![Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
 # Building WhatsApp Chatbot powered by OpenAI GPT-3! - 2
 
-# Receiving Messages from WhatsApp Cloud API using Webhooks
+## Receiving Messages from WhatsApp Cloud API using Webhooks
 
 Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 

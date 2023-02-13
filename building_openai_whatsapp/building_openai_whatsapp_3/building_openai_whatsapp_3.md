@@ -1,5 +1,5 @@
 ---
-title: "Building WhatsApp Chatbot powered by OpenAI GPT-3! - 2" 
+title: "Building WhatsApp Chatbot powered by OpenAI GPT-3! - 3" 
 layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 3
@@ -7,13 +7,16 @@ nav_order: 3
 ![Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
 # Building WhatsApp Chatbot powered by OpenAI GPT-3! - 3
 
-# Text Completion using OpenAI Language Models
+## Text Completion using OpenAI Language Models
 
 Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 
 #### This is part - 3 of a series of three posts, the other two parts are:
+
 #### Part - 1: [Sending Messages using WhatsApp Cloud API](https://yasermarey.github.io/building_openai_whatsapp_1/building_openai_whatsapp_1.html)
-#### Part - 2: [ Receiving Messages from WhatsApp Cloud API using Webhooks](https://yasermarey.github.io/building_openai_whatsapp_2/building_openai_whatsapp_2.html)
+
+#### Part - 2: [Receiving Messages from WhatsApp Cloud API using Webhooks](https://yasermarey.github.io/building_openai_whatsapp_2/building_openai_whatsapp_2.html)
+
 
 In Part 1, we wrote a simple WhatsApp Cloud API wrapper that sends messages. 
 
@@ -24,7 +27,7 @@ In this part, we will write a wrapper for OpenAI APIs to enable our application 
 Let's start! The steps we need to take are as follows:
 
 ## Steps
-1. Write an account on OpenAI and obtain API Key.
+1. Create an account and obtain the API key from OpenAI.
 2. Add OpenAI_API_KEY to the Heroku application environment variable.
 3. Install open
 4. Test receiving messages from a customer test number
@@ -34,16 +37,18 @@ Here are the steps in more detail:
 
 ***Step 1***
 
-Create an account and obtain the API key from OpenAI.
+Go to the OpenAI website (https://www.openai.com) and create an account. Log in to your account and then from the left side menu click *View API Keys* 
 ![](1.png)
+Then click *Create new secret key* 
 ![](2.png)
-
 
 ***Step 2***
+
 Open the Heroku dashboard, and select the application we created in our last post. from settings click "Reveal Config Vars" and then add API Key to the Environment Variables 
-![](2.png)
+![](3.png)
 
 ***Step 3***
+
 Create **openai_client.py** on the root of the source folder of the application we created last post as the following:
 
 ```python
@@ -107,6 +112,7 @@ async def callback(request: Request):
     return {"status": "success"}, 200```
 ```
 ***Step 4***
+
 To prepare to deploy our update to Heroku, add openai to the requirements.txt
 
 ```sh
