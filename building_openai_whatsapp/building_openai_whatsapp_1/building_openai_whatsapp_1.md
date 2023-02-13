@@ -1,5 +1,5 @@
 ---
-title: "Part - 1" 
+title: "Part - 1: Sending Messages" 
 layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 1
@@ -11,13 +11,6 @@ nav_order: 1
 
 Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 
-
-#### This is part - 1 of a series of three posts, the other two parts are:
-#### Part - 2: Receiving Messages from WhatsApp Cloud API using WebHooks
-#### Part - 3: Text Completion using OpenAI Language Models
-
-
-***I will update the links to parts 2 and 3 soon, follow me to receive notifications when they are published***
 
 Recently we were building a chat interface for a Call Center for one of the utility companies here in Egypt. We were about to start using Twilio APIs just to know that Metas started to allow anyone to integrate their software systems directly with WhatsApp through WhatsApp Business Platform Cloud API without a middleware such as Twillio!
 

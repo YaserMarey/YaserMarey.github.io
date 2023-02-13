@@ -1,5 +1,5 @@
 ---
-title: "Part - 3" 
+title: "Part - 3: Text Completion" 
 layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 3
@@ -11,17 +11,10 @@ nav_order: 3
 
 Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 
-#### This is part - 3 of a series of three posts, the other two parts are:
 
-#### Part - 1: [Sending Messages using WhatsApp Cloud API](https://yasermarey.github.io/building_openai_whatsapp_1/building_openai_whatsapp_1.html)
+In [Part 1](https://yasermarey.github.io/building_openai_whatsapp_1/building_openai_whatsapp_1.html), we wrote a simple WhatsApp Cloud API wrapper that sends messages. 
 
-#### Part - 2: [Receiving Messages from WhatsApp Cloud API using Webhooks](https://yasermarey.github.io/building_openai_whatsapp_2/building_openai_whatsapp_2.html)
-
-
-
-In Part 1, we wrote a simple WhatsApp Cloud API wrapper that sends messages. 
-
-In Part 2, we added a webhook to receive messages from the customer.
+In [Part 2](https://yasermarey.github.io/building_openai_whatsapp_2/building_openai_whatsapp_2.html), we added a webhook to receive messages from the customer.
 
 In this part, we will write a wrapper for OpenAI APIs to enable our application to use the received message from the customer as a prompt to GPT-3. 
 
