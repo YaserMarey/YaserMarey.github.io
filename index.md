@@ -11,6 +11,7 @@ My name is Yaser Marey and I am a software developer with a passion for solving 
 
 Through this blog, I am sharing my experiences, insights, and learnings with the broader software development community, with a focus on machine learning and artificial intelligence. The topics I plan to write about include programming languages, frameworks, best practices, and career development, as well as discussing the latest advancements and trends in the field of machine learning.
 
+I write not becuase I know all the answers, I don't! I write to frame the knowledge. In arabic we have a saying that translates to "Writing is the truth" 
 I am always looking to learn and grow as a software engineer. I welcome feedback and discussion on the topics I cover. If you have any suggestions for future posts or just want to connect, please don't hesitate to reach out.
 
 Thank you for visiting and I hope you find something of value in my writing.

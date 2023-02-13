@@ -3,7 +3,6 @@ title: "Building WhatsApp Chatbot powered by OpenAI GPT-3! - 2"
 layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 3
-nav_exclude: true
 ---
 ![Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
 # Building WhatsApp Chatbot powered by OpenAI GPT-3! - 3
@@ -20,7 +19,7 @@ In Part 1, we wrote a simple WhatsApp Cloud API wrapper that sends messages.
 
 In Part 2, we added a webhook to receive messages from the customer.
 
-In this part, we will write a wrapper to OpenAI API's to enable our application to use the received message from the customer as a prompt to GPT-3 and then reply to the customer accordingly. 
+In this part, we will write a wrapper for OpenAI APIs to enable our application to use the received message from the customer as a prompt to GPT-3. 
 
 Let's start! The steps we need to take are as follows:
 
@@ -45,9 +44,10 @@ Open the Heroku dashboard, and select the application we created in our last pos
 ![](2.png)
 
 ***Step 3***
-Create openai_client.py on the root of the source folder of the application we created last post as the following:
+Create **openai_client.py** on the root of the source folder of the application we created last post as the following:
 
 ```python
+#openai_client.py
 import os
 import openai
 
@@ -72,9 +72,14 @@ class OpenAIClient:
  
 ```
 This code is a simple wrapper for the oepnai.Completion.create() API.
-The important parameter we need to pass in is the prompt we would like GPT-3 to compete for us.
 
-Now we need to modify webhook.py to construct and call OpenAIClient.complete(prompt) method as the following:
+The `openai.Completion.create` method is used to create a new completion request to the OpenAI API. To use it, you need to provide a prompt, a model ID, and your API key.
+
+You can find more information about the API and its parameters in the OpenAI API documentation: [https://beta.openai.com/docs/api-reference/completions/]https://beta.openai.com/docs/api-reference/completions/create
+
+The important parameters we want to notice are: `engine` which is the ID of the language model you want to use to generate the completion. For example, `text-davinci-003` and the `prompt` which is the seed text that we want to use as the starting point for the completion.
+
+Now we need to modify webhook.py to construct and call `OpenAIClient.complete(prompt)` method as the following:
 
 ```python
 # webhook.py
@@ -115,12 +120,8 @@ gunicorn==20.1.0
 
 ***Step 5***
 
-We deploy to Heroku by pushing the source to a Heroku git repository that Heroku associates with our application.
-From the Heroku application dashboard ***deploy*** page, follow the link to install Heroku CLI and then log in:
+We need to deploy our changes to Heroku application we created the last post.
 
-```sh
-$ heroku login
-```
 Stage all source files, commit, and push
 
 ```sh
@@ -133,23 +134,12 @@ You can see Heroku deploying your application from the logs:
 Check that your application is successfully built and started from the dashboard
 ![](chatgpt_wts_app_10___.png "Create New Heroku Application")
 
-or using the command line
-
-```sh
-$ heroku open
-```
-
-In both cases you should see a new browser tab like this:
-![](chatgpt_wts_app_12.png "Create New Heroku Application")
-
-
 ***step 6***
 
-We now can test your webhook by sending a message to the WhatsApp Meta Cloud API Business number we received a template message on before in part 1 of this series, and if things went ok then we should see it echoed back to us.
+If all went ok, we can now chat directly with OpenAI GPT-3
+We now can send messages to Chat GPT-3, specifically `text-davinci-003` over WhatsApp
 
-![](chatgpt_wts_app_15.png)
-
-If anything went wrong we can check Heroku Logs.
+![](4.jpeg)
 
 Voila!, we have all pieces in place, this last one was straightforward and fun, and we have a completely running WhatsApp bot powered by GPT-3!
 
