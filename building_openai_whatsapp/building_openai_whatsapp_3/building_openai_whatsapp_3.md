@@ -18,6 +18,7 @@ Follow along as we walk through the steps of building a WhatsApp Chatbot powered
 #### Part - 2: [Receiving Messages from WhatsApp Cloud API using Webhooks](https://yasermarey.github.io/building_openai_whatsapp_2/building_openai_whatsapp_2.html)
 
 
+
 In Part 1, we wrote a simple WhatsApp Cloud API wrapper that sends messages. 
 
 In Part 2, we added a webhook to receive messages from the customer.
@@ -29,8 +30,8 @@ Let's start! The steps we need to take are as follows:
 ## Steps
 1. Create an account and obtain the API key from OpenAI.
 2. Add OpenAI_API_KEY to the Heroku application environment variable.
-3. Install open
-4. Test receiving messages from a customer test number
+3. Create openai_clinet.py and modify webhook.py
+4. Deploy updates to Hroku app.
 
 Here are the steps in more detail:
 
@@ -111,6 +112,7 @@ async def callback(request: Request):
 
     return {"status": "success"}, 200```
 ```
+
 ***Step 4***
 
 To prepare to deploy our update to Heroku, add openai to the requirements.txt
@@ -124,9 +126,7 @@ uvicorn==0.20.0
 gunicorn==20.1.0
 ```
 
-***Step 5***
-
-We need to deploy our changes to Heroku application we created the last post.
+We deploy our changes to Heroku application we created the last post.
 
 Stage all source files, commit, and push
 
