@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Systems: A Unique Puzzle - 2" 
+title: "Piece-2:What to Solve with ML" 
 layout: home
 parent: "Machine Learning Systems: A Unique Puzzle"
 nav_order: 2

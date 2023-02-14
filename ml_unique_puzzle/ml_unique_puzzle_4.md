@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Systems: A Unique Puzzle - 4" 
+title: "Piece-4:Data Labeling" 
 layout: home
 parent: "Machine Learning Systems: A Unique Puzzle"
 nav_order: 4
