@@ -133,14 +133,12 @@ You can see Heroku deploying your application from the logs:
 Check that your application is successfully built and started from the dashboard
 ![](chatgpt_wts_app_10___.png "Create New Heroku Application")
 
-***step 6***
 
-If all went ok, we can now chat directly with OpenAI GPT-3
-We now can send messages to Chat GPT-3, specifically `text-davinci-003` over WhatsApp
+If all went ok, we can send messages to Chat GPT-3, specifically `text-davinci-003` over WhatsApp
 
 ![](4.jpeg)
 
-Voila!, we have all pieces in place, this last one was straightforward and fun, and we have a completely running WhatsApp bot powered by GPT-3!
+Voila! we have all pieces in place, this last one was fun, and we have a completely running WhatsApp bot powered by GPT-3!
 
 Thank you for reading, if you find this useful please follow me for more content.
 
