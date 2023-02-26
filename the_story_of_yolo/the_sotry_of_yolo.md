@@ -30,7 +30,7 @@ The authors also introduce a new loss function that optimizes both the localizat
 
 5. Outputting the results: Finally, YOLO outputs the selected bounding boxes and their associated class probabilities, which represent the detected objects and their locations in the input image.
 
-The YOLO algorithm achieves state-of-the-art performance on the PASCAL VOC detection benchmark and can process images in real time with a speed of 45 frames per second on a Titan X GPU.
+The YOLO algorithm achieves [state-of-the-art performance](https://paperswithcode.com/sota/object-detection-on-pascal-voc-2007) on the PASCAL VOC detection benchmark and can process images in real time with a speed of 45 frames per second on a Titan X GPU.
 
 Since the original Yolo algorithm has been introduced, several versions have been published by researchers:
 
@@ -49,7 +49,7 @@ However, there are several open-source implementations of the YOLO algorithm ava
 
 - [Darknet](https://github.com/pjreddie/darknet): Darknet is the original implementation of YOLO, developed by Joseph Redmon, one of the authors of the YOLO paper. Darknet is written in C and CUDA, and it supports both CPU and GPU acceleration.
 
-- [TensorFlow-YOLOv4](https://github.com/hunglc007/tensorflow-yolov4-tflite): This is the most popular  implementation of YOLOv4 on github gudged by number of starts. It uses TensorFlow 2.0 and supports both CPU and GPU acceleration.
+- [TensorFlow-YOLOv4](https://github.com/hunglc007/tensorflow-yolov4-tflite): This is the most popular implementation of YOLOv4 on GitHub judged by the number of starts. It uses TensorFlow 2.0 and supports both CPU and GPU acceleration.
 
 - [Keras-YOLOv3](https://github.com/qqwweee/keras-yolo3): This is an implementation of YOLOv3 developed by qqwweee. It is written in Keras and supports both CPU and GPU acceleration.
 
