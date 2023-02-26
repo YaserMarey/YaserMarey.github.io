@@ -1,8 +1,9 @@
 ---
 title: "My Git Cheat Sheet" 
 layout: home
+parent: "My Cheat Sheets"
 nav_order: 10
-nav_exclude: true
+nav_exclude: false
 ---
 ![ ](x.png)
 # My Git Cheat Sheet
