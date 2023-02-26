@@ -3,7 +3,7 @@ title: "My Frontend Cheat Sheet"
 layout: home
 parent: "My Cheat Sheets"
 nav_order: 1
-nav_exclude: false
+nav_exclude: true
 ---
 ![ ](x.png)
 # My Frontend Cheat Sheet

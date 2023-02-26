@@ -1,8 +1,8 @@
 ---
-title: "My Git Cheat Sheet" 
+title: "Choosing the Right Metric to Evaluate Your Model" 
 layout: home
 nav_order: 10
-nav_exclude: false
+nav_exclude: true
 ---
 ![ ](x.png)
 # Choosing the Right Metric to Evaluate Your Model
@@ -19,6 +19,11 @@ Accuracy
 TPR
 
 FPR
+
+Specifity
+
+mAP
+
 
 AUC ROC (Area Under the Receiver Operating Characteristic Curve) and AUPRC (Area Under the Precision-Recall Curve) are two popular evaluation metrics used in machine learning, particularly for binary classification problems.
 
