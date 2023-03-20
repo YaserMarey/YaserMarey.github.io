@@ -1,10 +1,8 @@
 ---
 layout: page
-title: ""
+title: "Random thoughts about machines and how they fail and succeed in their endeavor to become rational"
 permalink: /learning-machines/
 ---
-
-Random thoughts about machines and how they fail and succeed in their endeavor to become rational.
 
 ##### The unreasonable effectiveness
 “There’s something magical about Recurrent Neural Networks (RNNs)” Andrej Karapthy. Such statement is not very settling for me. How for a software engineer to write a test case for something magical! I don’t think we can afford to treat a ML model as a black box. Machine Learning Interpretability is crucial.
