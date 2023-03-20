@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "ML Puzzle Piece-3:Marvelous Data" 
+title: "ML Puzzle Piece-3:Marvelous data and where to find it" 
 categories: [MLOps]
 excerpt: This is the third post of a series of articles discussing the software engineering perspective of Machine Learning Systems.
 ---
 
 ![ Machine Learning Systems: A Unique Puzzle ](../images/ml_unique_puzzle.png "Machine Learning in Blue")
 
-# Marvelous data and where to find it
 
 The resurrection of machine learning was only possible because of the internet and the proliferation of data sources.
 

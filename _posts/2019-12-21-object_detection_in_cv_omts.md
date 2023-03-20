@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Object Detection in Computer Vision: One Metro Trip Summary" 
+title: "Object Detection in One Metro Trip" 
 categories: [Computer Vision]
 excerpt: My Cairo Metro Trips would take 30 minutes on average. This is a summary that may consume such a time frame for such a commuter.
 ---
 
-***My Cairo Metro Trips would take 30 minutes on average. This is a summary that may consume such a time frame for such a commuter.***
+***My Cairo Metro Trips would take 30 minutes on average. This is a summary that fits this time***
 
 In Computer Vision, we focus on enabling machines to interpret and understand visual information from the world around us. Researchers in computer vision study the following topics:
 

@@ -7,7 +7,6 @@ excerpt: This is the second post of a series of articles discussing the software
 
 ![ Machine Learning Systems: A Unique Puzzle ](../images/ml_unique_puzzle.png "Machine Learning in Blue")
 
-# What to solve with Machine Learning
 
 The decision to utilize machine learning in solving a problem may be influenced by the prevalent hype surrounding AI, rather than a genuine assessment of its potential value. However, it would be unwise to dismiss it completely. Technology is constantly evolving, and we have seen examples of businesses falling behind competitors due to failure to adopt maturing technology. In general, problems solvable with machine learning have one or more symptoms explained in the following.
 

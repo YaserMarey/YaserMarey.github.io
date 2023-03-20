@@ -7,7 +7,6 @@ excerpt: This is the post number 4 of a series of articles discussing the softwa
 
 ![ Machine Learning Systems: A Unique Puzzle ](../images/ml_unique_puzzle.png "Machine Learning in Blue")
 
-# Data Labeling
 
 When addressing a problem with a supervised learning machine-learning solution we spend most of the time working on data labeling.
 

@@ -8,8 +8,6 @@ excerpt: This is the first post of a series of articles discussing the software 
 ![ Machine Learning Systems: A Unique Puzzle ](../images/ml_unique_puzzle.png "Machine Learning in Blue")
 
 
-# Extra Layer of Complexity
-
 From a software engineering perspective, Machine Learning (ML) systems are perceived as an intricate combination of tools and components, rather than simply a collection of algorithms that predict outcomes or classify data. These components function in unison to produce a functional and valuable instrument for businesses or organizations.
 
 Think of it like building a puzzle! We start by comprehending the specific business needs and goals that sparked the ML project. We envision the perfect user interface, ensuring it is user-friendly and easy to navigate.

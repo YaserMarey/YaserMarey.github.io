@@ -5,8 +5,6 @@ categories: [Computer Vision]
 excerpt: The great OCR was one of the earliest Neural Network applications. The utility of converting hand or machine-written text from scanned documents to machine-encoded text format was and still huge.
 ---
 
-# MNIST: The Neural Network Hello World Dataset
-
 The great OCR was one of the earliest Neural Network applications. The utility of converting hand or machine-written text from scanned documents to machine-encoded text format was and still huge.
 
 In 1998 Yann LeCun, currently, Chief AI Scientist at Facebook was working at Bell Labs on an OCR that recognizes the set of digits from 0 to 9 to be deployed and used in banks, and post offices to recognize check numbers and zip codes.
