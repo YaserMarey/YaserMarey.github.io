@@ -26,7 +26,7 @@ body {
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   height: 100%;
 }
 
@@ -53,14 +53,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 @media (min-width: 769px){
@@ -76,11 +76,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #222;
 }
 
@@ -147,7 +147,7 @@ table tr td :last-child {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #fff3ff;
 }
 
@@ -170,7 +170,7 @@ span[data-pullquote]:before {
   width: 200px;
   margin: 0 0 0.5em 30px;
   padding: 0 -5% 0 0;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-style: italic;
   color: green;
   text-align: center;
@@ -310,7 +310,7 @@ p > img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 26px;
   letter-spacing: 1px;
   text-align: left;
 
@@ -322,7 +322,7 @@ p > img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 14px;
 
   @include mobile {
     margin: 3px 0;
@@ -342,7 +342,7 @@ nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
@@ -380,7 +380,7 @@ nav {
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     background-color: #ede1ff;
   }
@@ -390,7 +390,7 @@ nav {
     /*border-left: 2px solid $gray;*/
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     background-color: #ddffb5;;
   }
@@ -401,7 +401,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -598,7 +598,7 @@ Modules - reusable parts of our design
 .chip {
     display: inline-block;
     height: 32px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: rgba(0,0,0,.6);
     line-height: 32px;
@@ -614,7 +614,7 @@ Modules - reusable parts of our design
 }
 
 #gh-latest{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;		
 }
 
@@ -627,7 +627,7 @@ Modules - reusable parts of our design
 //carbon ads
 #carbonads {
   --width: 180px;
-  --font-size: 14px;
+  --font-size: 12px;
 }
 
 #carbonads {
@@ -701,7 +701,7 @@ Modules - reusable parts of our design
 }
 
 .post-tags a {
-  font-size: 14.5px;
+  font-size: 12.5px;
   padding: 2px 13px;
   border: none;
   background-color: #4CAF50;
@@ -783,7 +783,7 @@ Modules - reusable parts of our design
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 11pt;
+  font-size: 9pt;
 }
 
 .tinyletterForm {
@@ -800,7 +800,7 @@ Modules - reusable parts of our design
   text-decoration: none;
   background: #00000015;
   border: none;
-  font-size: 12px;
+  font-size: 10px;
   padding: 0px 7px;
   display: inline-block;
   border-radius: 4px;
@@ -953,16 +953,16 @@ Modules - reusable parts of our design
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 18px;
+    font-size: 1.15rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 14px;
+    font-size: 0.9rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 12px;
+    font-size: 0.775rem;
   }
 }
 @media only screen and (min-width: 1170px) {
