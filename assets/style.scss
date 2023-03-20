@@ -328,12 +328,15 @@ p > img {
     margin: 3px 0;
   }
 }
+.nav_link {
+  font-size: medium;
+}
 
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: medium;
 
   @include mobile {
     float: none;
@@ -347,6 +350,7 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
+    font-size: medium;
     letter-spacing: 1px;
 
     @include mobile {
