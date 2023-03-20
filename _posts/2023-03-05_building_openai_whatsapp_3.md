@@ -5,7 +5,7 @@ categories: [NLP, OpneAI]
 excerpt: Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 ---
 
-![Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
+![Building OpenAI WhatsApp Chatbot](../images/chatgpt_wts_app.png "GPT-3 WhatsApp")
 
 ## Text Completion using OpenAI Language Models
 
@@ -29,14 +29,14 @@ Here are the steps in more detail:
 ***Step 1***
 
 Go to the OpenAI website (https://www.openai.com) and create an account. Log in to your account and then from the left side menu click *View API Keys* 
-![](1.png)
+![](../images/1.png)
 Then click *Create new secret key* 
-![](2.png)
+![](../images/2.png)
 
 ***Step 2***
 
 Open the Heroku dashboard, and select the application we created in our last post. from settings click "Reveal Config Vars" and then add API Key to the Environment Variables 
-![](3.png)
+![](../images/3.png)
 
 ***Step 3***
 
@@ -125,15 +125,15 @@ $ git add .; git commit -am"adding openai_client call"; git push keroku master
 ```
 
 You can see Heroku deploying your application from the logs:
-![](chatgpt_wts_app_11_.png "Application logs")
+![](../images/chatgpt_wts_app_11_.png "Application logs")
 
 Check that your application is successfully built and started from the dashboard
-![](chatgpt_wts_app_10___.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_10___.png "Create New Heroku Application")
 
 
 If all went ok, we can send messages to Chat GPT-3, specifically `text-davinci-003` over WhatsApp
 
-![](4.jpeg)
+![](../images/4.jpeg)
 
 Voila! we have all pieces in place, this last one was fun, and we have a completely running WhatsApp bot powered by GPT-3!
 

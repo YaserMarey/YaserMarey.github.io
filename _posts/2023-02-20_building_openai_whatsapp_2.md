@@ -5,7 +5,7 @@ categories: [NLP, OpneAI]
 excerpt: Follow along as we walk through the steps of building a WhatsApp Chatbot powered by OpenAI GPT-3 using Python, WhatsApp Cloud API, and a FastAPI Webhook published on Heroku.
 ---
 
-![Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
+![Building OpenAI WhatsApp Chatbot](../images/chatgpt_wts_app.png "GPT-3 WhatsApp")
 
 ## Receiving Messages from WhatsApp Cloud API using Webhooks
 
@@ -201,19 +201,19 @@ Now, head to [heroku.com](https://id.heroku.com/login), and create an account, y
 Official Meta documentation describes other methods to publish webhook but I found Heroku the most straightforward.
 
 Create a new application on Heroku
-![](chatgpt_wts_app_8_.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_8_.png "Create New Heroku Application")
 
 Choose a name and click create ***Create App***
-![](chatgpt_wts_app_9_.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_9_.png "Create New Heroku Application")
 
 We have now an application created, we can see it on the Heroku dashboard
-![](chatgpt_wts_app_9__.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_9__.png "Create New Heroku Application")
 
 Set environment variables from the application dashboard then ***settings*** tab
-![](chatgpt_wts_app_10_.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_10_.png "Create New Heroku Application")
 
 Add the following environment variables:
-![](chatgpt_wts_app_10__.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_10__.png "Create New Heroku Application")
 In Part-3, we will add OPENAI_API_KEY, keep it empty for now.
 
 We deploy to Heroku by pushing the source to a Heroku git repository that Heroku associates with our application.
@@ -248,10 +248,10 @@ $ git push heroku master
 ```
 
 You can see Heroku deploying your application from the logs:
-![](chatgpt_wts_app_11_.png "Application logs")
+![](../images/chatgpt_wts_app_11_.png "Application logs")
 
 If the build is successful then you can start your application from the dashboard
-![](chatgpt_wts_app_10___.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_10___.png "Create New Heroku Application")
 
 or using the command line
 
@@ -260,7 +260,7 @@ $ heroku open
 ```
 
 In both cases you should see a new browser tab like this:
-![](chatgpt_wts_app_12.png "Create New Heroku Application")
+![](../images/chatgpt_wts_app_12.png "Create New Heroku Application")
 
 
 ***step 3***
@@ -269,18 +269,18 @@ Login to your Meta Developer Account and click on your app, now from the right s
 
 Fill in the URL and the arbitrary string that Meta will send with a subscription request and we can check to verify that the request is authentic.
 
-![](chatgpt_wts_app_13.png)
+![](../images/chatgpt_wts_app_13.png)
 
 We also need to subscribe to messages. Click on the ***Manage*** button on the ***WhatsApp>Configuration*** page. Click ***Subscribe***
 
-![](chatgpt_wts_app_14.png)
+![](../images/chatgpt_wts_app_14.png)
 
 
 ***Step 4***
 
 We now can test your webhook by sending a message to the WhatsApp Meta Cloud API Business number we received a template message on before in part 1 of this series, and if things went ok then we should see it echoed back to us.
 
-![](chatgpt_wts_app_15.png)
+![](../images/chatgpt_wts_app_15.png)
 
 If anything went wrong we can check Heroku Logs.
 

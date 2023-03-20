@@ -11,7 +11,7 @@ layout: home
 parent: Building OpenAI WhatsApp Chatbot
 nav_order: 1
 ---
-![ Building OpenAI WhatsApp Chatbot](chatgpt_wts_app.png "GPT-3 WhatsApp")
+![ Building OpenAI WhatsApp Chatbot](../images/chatgpt_wts_app.png "GPT-3 WhatsApp")
 
 ## Sending Messages using WhatsApp Cloud API
 
@@ -31,7 +31,7 @@ Let's start,
 
 First here is a schematic diagram of what we want to build:
 
-![](chatgpt_wts_app_diagram.png "OpenAI WhatsApp Diagram")
+![](../images/chatgpt_wts_app_diagram.png "OpenAI WhatsApp Diagram")
 
 The general steps we need to take for part 1 are as the following:
 
@@ -48,23 +48,23 @@ Here are the steps in detail:
 
 Login to your Facebook developer account and click on the Create App button and choose the ***Business*** type app option and then click the next button below.
 
-![](chatgpt_wts_app_1.png)
+![](../images/chatgpt_wts_app_1.png)
 
 We select a name that Meta will use to refer to our application on the application's dashboard, we will choose ***chatgpt_wtsapp***, fill in my email and click next.
 
-![](chatgpt_wts_app_2.png)
+![](../images/chatgpt_wts_app_2.png)
 
 The application is created but we need to add a Meta Product to it, in our case this would be ***WhatsApp***. We need to click the Setup button on the WhatsApp product card at the bottom of the page.
 
-![](chatgpt_wts_app_3.png)
+![](../images/chatgpt_wts_app_3.png)
 
 One more screen to go, now you just need to select a business account or create one if there is no account created before, and then hit create button.
 
-![](chatgpt_wts_app_4.png)
+![](../images/chatgpt_wts_app_4.png)
 
 Now click the "Start Using the API" button and follow on to the next step.
 
-![](chatgpt_wts_app_5.png)
+![](../images/chatgpt_wts_app_5.png)
 
 Take note of ***WhatsApp Temporary Access Token***
 
@@ -72,11 +72,11 @@ Take note of ***WhatsApp Temporary Access Token***
 
 Most of the configuration is done now, all that we need to do is to add a phone number to test sending messages to it from WhatsApp Cloud API.
 
-![](chatgpt_wts_app_6.png)
+![](../images/chatgpt_wts_app_6.png)
 
 Select that number and now we can test sending the message by hitting "Send Message" or by copying the ```crul``` command to your terminal and running it. Upon doing either of these you should receive a message on the test number you selected, the message should be  similar to this:
 
-![](chatgpt_wts_app_7.png)
+![](../images/chatgpt_wts_app_7.png)
 
 Take note of the ***Phone Number ID***.
 
